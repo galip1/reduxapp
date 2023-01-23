@@ -8,6 +8,7 @@ import {
 } from "../../helpers/locale-helper";
 
 const LangSwitcher = () => {
+  //const currentLang = useSelector((state) => state.locale.lang);
   const currentLang = getCurrentLang();
 
   return (
@@ -19,6 +20,8 @@ const LangSwitcher = () => {
 
       <Dropdown.Menu>
         {langs.map((item) => (
+          ///langs --locale-helper.js den gelir
+          //ve elemanlarını burada kullan
           <Dropdown.Item
             href="#/action-1"
             key={item.code}
