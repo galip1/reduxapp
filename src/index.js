@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "flag-icons/css/flag-icons.min.css";
 import { Provider as StoreProvider } from "react-redux";
+//provider genel bir ifade onu store içn ayarladık.hangı provider oldugunu anlayalım
 import store from "./store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
